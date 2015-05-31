@@ -19,6 +19,8 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem "rspec-rails"
+  gem "guard"
+  gem "guard-rspec"
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
@@ -27,6 +29,9 @@ end
 group :test do
   gem "selenium-webdriver"
   gem "capybara"
+  gem "rb-fsevent", require: false
+  gem "terminal-notifier-guard"
+  # gem "growl"
 end
 
 group :doc do

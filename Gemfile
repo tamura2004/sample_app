@@ -3,6 +3,8 @@ ruby "2.2.2"
 #ruby-gemset=railstutorial_rails_4_2
 
 gem 'rails', '4.2.1'
+gem "bootstrap-sass"
+gem "sprockets"
 
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'

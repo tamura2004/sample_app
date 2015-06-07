@@ -24,6 +24,7 @@ group :development, :test do
   gem "rspec-rails"
   gem "guard"
   gem "guard-rspec"
+  gem "guard-livereload"
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'

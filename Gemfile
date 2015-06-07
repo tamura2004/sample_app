@@ -34,7 +34,7 @@ group :test do
   gem "capybara"
   gem "rb-fsevent", require: false
   gem "terminal-notifier-guard"
-  # gem "growl"
+  gem "factory_girl_rails"
 end
 
 group :doc do
